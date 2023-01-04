@@ -1,0 +1,42 @@
+.movies-list {
+    border-right: 1px solid #D6DFE7;
+    height: 100vh;
+}
+
+.no-movies {
+    line-height: 100vh;
+    text-align: center;
+    color: #4D6477;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.movie {
+    color: #4D6477;
+    font-weight: 600;
+    border-bottom: 1px solid #D6DFE7;
+    cursor: pointer;
+}
+
+.movie-title {
+    color: #4D6477;
+}
+
+.movie-description {
+    color: #4D6477;
+}
+
+.episodes {
+    font-weight: 400;
+}
+
+.date {
+    color: #4D6477;
+    font-weight: 450;
+    display: flex;
+    justify-content: right;
+}
+
+.hide > .dropdown-menu {
+    display: none !important;
+}

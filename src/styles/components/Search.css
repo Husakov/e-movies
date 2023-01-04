@@ -1,0 +1,95 @@
+.search {
+    background-color: #F7F8FA;
+    border-top: 1px solid #D6DFE7;
+    border-bottom: 1px solid #D6DFE7;
+}
+
+.search-input {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0 0.375rem 0.375rem 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+}
+
+select:focus, input:focus {
+    outline: none;
+}
+
+.sort-section {
+    cursor: pointer;
+    margin-right: 15px;
+    min-width: 40px;
+}
+
+#dropdownMenu2 {
+    border: 1px solid #ced4da;
+    color: #617586;
+    font-weight: 500;
+    background-color: #FCFCFC;
+    min-width: 110px;
+    text-align: left;
+}
+
+#dropdownMenu2::after {
+    content: none;
+}
+
+.dropdown-menu {
+    width: 250px;
+    height: 270px;
+}
+
+.dropdown-divider {
+    margin: unset !important;
+}
+
+.sort-item {
+    border-bottom: 1px solid #D6DFE7;
+}
+
+.sort-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #617586;
+}
+
+.close-dropdown {
+    cursor: pointer;
+}
+
+.search-icon {
+    height: 40px;
+    background-color: white !important;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-left: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-radius: 0.375rem 0 0 0.375rem !important;
+}
+
+.sort-input {
+    height: 40px;
+    display: block;
+    font-size: 1rem;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
